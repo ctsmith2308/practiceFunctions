@@ -1,3 +1,4 @@
+// Check for balanced parenthesis. Uses a rolling index pattern to check for next paren. openingParen should be 0 if balanced.
 const balanced = str => {
   const check = str => {
     openingParen = 0
